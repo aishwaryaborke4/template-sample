@@ -1,0 +1,27 @@
+@media screen and (min-width: 700px) and (max-width: 1204px){
+
+    .content { 
+        max-width: 700px;
+    }
+.logo {font-size: 30px;}
+.nav a {font-size: 18px;}
+
+.article-content {font-size: 20px;}
+.main-box { margin-left: 160px}
+.box { width: 115px; height: 115px;}
+.box img {width: 115px; height: 115px; margin: 2px; padding: 4px;}
+.box img:hover,
+.box img:focus {width: 120px; height: 120px;}
+
+.section {flex-direction: column;}
+.section .card-box {
+    background-size: cover;
+    height: 200px; width: 100%;
+}
+.section .card-box-content {position: absolute; left: 10%; top: 30%;}
+
+.about {margin: 20px 25px}
+
+.main-footer {height: 200px;}
+
+}
